@@ -10,7 +10,7 @@ import seaborn as sns
 import streamlit as st
 
 # ---------------- API CONFIG ----------------
-API_KEY='8ac287a3ec89428a12f3c41f0adfb50b'
+API_KEY='API_KEY'
 BASE_URL = 'https://api.openweathermap.org/data/2.5/'
 
 # ---------------- DATA FUNCTIONS ----------------

@@ -1,0 +1,36 @@
+# -------------------
+# Python ignores
+# -------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Streamlit cache
+.ipynb_checkpoints
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# -------------------
+# Sensitive files
+# -------------------
+.env
+*.env
+secrets.toml
+
+# -------------------
+# Data files (optional – keep if needed)
+# If you don’t want to push weather.csv to GitHub:
+weather.csv
