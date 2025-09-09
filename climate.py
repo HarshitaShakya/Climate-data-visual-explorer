@@ -9,8 +9,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-# ---------------- API CONFIG ----------------
-API_KEY='API_KEY'
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Loads variables from .env into environment
+
+API_KEY = os.getenv("API_KEY")
+
+
 BASE_URL = 'https://api.openweathermap.org/data/2.5/'
 
 # ---------------- DATA FUNCTIONS ----------------
